@@ -1,16 +1,6 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";"../layouts/BaseLayout.astro";
 ---
-
-<html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Acerca de nuestra web</h1>
-	</body>
-</html>
+<BaseLayout pageTitle="About Us">
+  <h2>About our website</h2>
+</BaseLayout>
